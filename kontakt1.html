@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt för kund</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+
+        <ul>
+            <li><a href="index.html">Novus Vilis</a></li>
+            <li><a href="popup.html">Pop-up-shop</a></li>
+            <li><a href="sortiment.html">Sängar</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+
+    </nav>
+
+    <header>
+
+    </header>
+
+    <main>
+
+        <p>Har du allmäna frågor om oss eller vårat sortiment? har du frågor om en produkt du har köpt? Vi hänvisar till
+            formuläret nedan så ska vi svara dig så snabbt vi kan.</p>
+
+        <form id="kontakt1">
+           
+            <fieldset id="info">
+                <label>Anledning till kontakt:</label>
+                <select id="anledning" name="anledning">
+                    <option value="fraga">Fråga</option>
+                    <option value="reklamation">Reklamation</option>
+                </select>
+                <label for="meddelande">Fråga eller ordernummer här:</label>
+                <textarea id="meddelande" name="meddelande"></textarea>
+            </fieldset>
+
+            <fieldset id="uppgifter">
+               
+                <label>Namn:</label>
+                <input type="text" id="namn" name="namn">
+
+                <label>E-mail:</label>
+                <input type="text" id="email" name="email">
+
+                <label for="telefonnummer">Telefon-nummer:</label>
+                <input type="text" id="telefonnummer" name="telefonnummer">
+
+                <input type="submit" value="skicka">
+            </fieldset>
+        </form>
+
+    </main>
+
+    <footer>
+
+        <p>Novus Vilis</p>
+
+        <div id="div4">
+            <p>Kontakt +xx xx xx xxx novusvilis@kontakt.se</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
